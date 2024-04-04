@@ -1,0 +1,390 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+/* Add or update existing CSS styles for responsiveness and layout */
+
+.cricket {
+    padding: 50px 0;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-column,
+  .video-column {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .content-wrapper {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .text-column,
+    .video-column {
+      width: 45%;
+    }
+  }
+  
+  .additional-info {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+
+html body{
+    width: 96%;
+    height: 100%;
+    margin: 2rem;
+}
+/* -------- Utility Classes --------*/
+.line{
+    border: 3px solid #009970;
+    }
+
+/* ------------ */
+.login-button{
+    background-color: #009970;  
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover{
+    background-color: #00b383;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    color: #009970;
+   
+    font-size: 24px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    margin: 10px;
+    /* padding: 0.5; */
+    border-radius: 16px;
+
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus , .btn-close :focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover,.nav-link :active{
+    color: #000;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before ,.nav-link:active::before {
+    width: 100%;
+    visibility: visible;
+}
+.hero-sction img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+
+.border{
+    border: 2px solid #009970;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #009970;
+}
+.border h3{
+    color:#0f614b;
+}
+.border p{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+.th{
+text-align: center;
+background-color: #009970;
+color: white;
+font-size: 22px;
+opacity: 0.9;
+
+}
+.paragraph{
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    margin-bottom: 30px;
+    height: 370px;
+}
+.card-text
+{
+    font-size: 13px;
+}
+.card img{
+height: 270px;
+width: 287px;
+}
+
+.col-2{
+    width: auto;
+     justify-content: space-evenly; 
+    margin: 5px;
+    padding: 20px;  
+}  
+.col-2 .card img{
+     width: 100%;
+    height: 400px;
+    gap: 200px;
+    padding: 20px;
+
+}  
+.col-2:hover{
+    opacity: 0.30;
+}
+
+.ig{
+    position: relative;
+    left: 40px;
+    height: 70px;
+    width: 100%;
+    background: transparent;
+
+}
+.achivment table tr{
+    padding: 2rem;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.achivment td img
+{
+    height: 40vh;
+    width: auto;
+}
+
+
+.achivment 
+{
+    padding-top: 2rem;
+    text-align: center; 
+}
+
+.image-1{
+    height: 73vh;
+    width: 40vw;
+    margin: 0 0 2rem 2rem ;
+}
+.cricket table tr h5{
+    margin-top: 2rem;
+}
+
+.btn
+{
+    height: 80px;
+margin-bottom: 100px;
+} 
+.image
+{
+    height: 200px;
+    width: 200px;
+    
+}
+/* section table css */
+.tht .thh{
+   background-color: #009970;
+   color: white;  
+}
+
+/* politics career */
+#politics-career iframe{
+margin: 2% 20%;
+}
+
+
+/* section footercss start */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footercontainer
+{
+    width: 100%;
+    padding: 70px 30px 20px;
+    background-color: #009970;
+}
+.socialIcons
+{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i
+{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+/* hover effects on social media icons  */
+.socialIcons a:hover
+{
+    background-color:#111;
+     transition: 0.5;
+}
+.socialIcons a:hover i
+{
+    color: white;
+    transition: 0.5;
+}
+/* ........... */
+.footer-nav
+{
+    margin: 30px 0;
+}
+.footer-nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer-nav ul li a
+{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0,5;
+}
+
+/* table tr td {
+  width: 98%;
+  height: 50%;
+} */
+table tr td{
+    padding: 5px;
+}
+table tr td .description{
+    font-size: 1.6rem;
+}
+ table tr td .video{
+    width: 60vw;
+    object-fit: cover;
+height: 67vh;
+} 
+
+
+@media screen and (max-width: 930px) {
+    .navbar{
+        display: flex;
+        height: 11%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+.navbar .navbar-brand img{
+     object-fit:cover; 
+     height: 9vh;
+     width: 20vw;
+}
+    .achivment table tr{
+        padding: 2rem;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    }
+    .achivment td {
+        order: 1;
+
+    }
+    .achivment td img{
+    height: 42vh;
+    width: 450px;
+    }
+} 
+
+ @media screen and (max-width: 830px) {
+    html body{
+        width: 96%;
+        height: 100%;
+        margin: 2rem;
+    }
+    .navbar .login-button{
+        font-size: 0.5rem;   
+    }
+    .navbar .navbar-brand img{
+        object-fit: cover;
+         height: 9vh; 
+        width: 25vw;
+   }
+    .achivment table tr{
+        padding: 2rem;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .achivment td {
+        order: 1;
+
+    }
+    .achivment td img{
+    height: 40vh;
+    width: 80%;
+    }
+    
+} 
+.book
+{
+    position: relative;
+    right: -1000px;
+}
+
